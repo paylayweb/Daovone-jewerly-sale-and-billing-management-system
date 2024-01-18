@@ -1,0 +1,173 @@
+{% extends "header_pro/base.html" %}
+
+{% block title %}
+  Welcome to my website
+{% endblock %}
+{% block nav %}
+
+<style>
+    body{
+        height: 100vh;
+    }
+    .container{
+        height: 100%;
+    }
+    .card{
+        height:100px;
+        weight:40px;      
+        border-radius: 15px;
+    }
+</style>
+
+
+<body style="background-color:white;">
+
+<div class="container-sm h-100 d-flex align-items-center justify-content-center border border-danger flex-column">
+    {% comment %} navbar-header {% endcomment %}
+    <div class="border border-primary container " style="height:10%; background-color:#001E4A;">
+    
+        
+
+    </div>
+    {% comment %} Main {% endcomment %}
+    <div class=" border border-light container h-75 d-flex row" style="background-color: #ABABAB;">
+        {% comment %} Function Menu {% endcomment %}
+        <div class="d-flex col-3 border border-danger">
+            <div class="row">
+                 <div class="col mb-3">
+                    <div class="card mx-2">
+                        <div class="border border-danger d-flex row mx-0" style="border-top-radius: 15px;">
+                            <div class="bg-warning " style="border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                                <p class="text-center text-light m-0">ລາຄາຄໍາ</p>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mb-3">
+                    <div class="card mx-2">
+                        <div class="border border-danger d-flex row mx-0" style="border-top-radius: 15px;">
+                            <div class="bg-secondary " style="border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                                <p class="text-center text-light m-0">ຊື້-ຄໍາ
+
+                                </p></div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mb-3">
+                    <div class="card mx-2">
+                        <div class="border border-danger d-flex row mx-0" style="border-top-radius: 15px;">
+                            <div class="bg-secondary " style="border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                                <p class="text-center text-light m-0">ຂາຍ-ຄໍາ</p>
+                            </div>
+                                <div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        
+            <div class="row">
+                <div class="col mb-3">
+                    <div class="card mx-2">
+                        <div class="border border-danger d-flex row mx-0" style="border-top-radius: 15px;">
+                            <div class="bg-secondary " style="border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                                <p class="text-center text-light m-0">ເເລກຄໍາ</p>
+                                </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mb-3">
+                    <div class="card mx-2">
+                        <div class="border border-danger d-flex row mx-0" style="border-top-radius: 15px;">
+                            <div class="bg-secondary " style="border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                                <p class="text-center text-light m-0">ລາຍການສິນຄ້າ</p>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col mb-3">
+                    <div class="card mx-2">
+                        <div class="border border-danger d-flex row mx-0 " style="border-top-radius: 15px;">
+                            <div class="bg-secondary " style="border-top-left-radius: 10px;border-top-right-radius: 10px;">
+                                <p class="text-center text-light m-0">ລາຍງານ</p>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> 
+            </div>
+
+        {% comment %} Display Tab {% endcomment %}
+        <div class="col-9 border border-danger">
+            <div class="container border border-warning">
+                <div class="row">
+                    <div class="">
+                        <div class="bg-light align-items-center justify-content-center mt-3 w-100" style="height: 60px ">
+                            <!-- Content for the first column -->
+                            <div class="d-flex row">
+                                <div class="col-2">
+                                    ກັບຄືນ
+                                </div>
+                                <div class="col-8 text-end">ວັນເວລາ</div>
+                                <div class="col-2">
+                                    ໄປໜ້າ
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="">
+                            <div class="bg-light align-items-center justify-content-center mt-3 w-100" style="height: 100px">
+                                <!-- Content for the first column -->
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="">
+                                <div class="bg-light align-items-center justify-content-center mt-3 border border-success" style="height: 280px; weight:400px;">
+                                    <!-- Content for the first column -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="">
+                                    <div class="bg-light align-items-center justify-content-center mt-3 w-100" style="height: 30px">
+                                        <!-- Content for the first column -->
+                                    </div>
+                                </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div> 
+
+    <!-- Bootstrap JS (optional, for certain components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</>
+
+{% endblock %}
+{% block content %}
+
+{% endblock %}

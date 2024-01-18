@@ -1,0 +1,51 @@
+{% extends "header_pro/base.html" %}
+{% load static %}
+
+{% block title %}
+  Welcome to my website
+{% endblock %}
+{% block nav %}
+<body style="background-color:#121258">
+    <div class="container">
+        <div class="row justify-content-center align-items-center min-vh-100">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <form method="post" action="" class="container-sm w-75">
+                            {% csrf_token %}
+                            <div>
+                                <img src="{{STATIC_URL}}images/logo.jpeg" />
+
+                            </div>
+                            <div class="">
+                                <h5 class="text-center fw-bold mb-4">
+                                    Daovone Gold & Jrewely
+                                </h5>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control mx-auto" id="input1" name="user" placeholder="Username" required>
+                            </div>
+        
+                            <div class="mb-3">
+                                <input type="text" class="form-control mx-auto" id="input2" name="pass" placeholder="Password" required>
+                            </div>
+        
+                            <div class="d-flex justify-content-center">
+                                <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optional, for certain components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+{% endblock %}
+{% block content %}
+
+{% endblock %}
+
